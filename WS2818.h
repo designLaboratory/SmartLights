@@ -11,4 +11,5 @@ void SendReset(void);
 void SendOne(void);
 void SendZero(void);
 void Display(uint8_t digit,uint8_t color[40][3]);
+void Hello(void);
 #endif

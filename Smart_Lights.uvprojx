@@ -389,6 +389,11 @@
               <FileType>1</FileType>
               <FilePath>.\WS2828.c</FilePath>
             </File>
+            <File>
+              <FileName>math.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\math.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,5 +1,6 @@
 #include "MKL25Z4.h"
 #include "WS2818.h"
+#include "math.h"
 
 
 int main(void){
@@ -8,32 +9,24 @@ int main(void){
 //////////////////////////////////////////////////////////////////////////
 //	its a simple example how to use functions,
 //////////////////////////////////////////////////////////////////////////
-	uint8_t i;
-	uint16_t j;
-	uint8_t liczba_diod;
-	uint8_t color;
-	uint8_t kolory[40][3];		
+	uint32_t i;
 	LedInit();		//initialization of matrix led
+	Hello();
+
 	while(1){
-			for(color=0;color<3;color++){
-				for(i=0;i<255;i++){
-					for(liczba_diod=0;liczba_diod<40;liczba_diod++){
-						kolory[liczba_diod][color]=i;
-					}
-					Display(liczba_diod,kolory);		//function which display table of colors
-					for(j=0;j<30000;j++){}
-				}
-				for(i=255;i>0;i--){
-					for(liczba_diod=0;liczba_diod<40;liczba_diod++){
-						kolory[liczba_diod][color]=i;
-					}
-					Display(liczba_diod,kolory);
-					for(j=0;j<30000;j++){}
-				}
-			}
-		}
-return 1;
+		Sector1(0);
+		for(i=0;i<30;i++){}
+		Sector2(127);
+		for(i=0;i<30;i++){}
+		Sector3(0);
+		for(i=0;i<30;i++){}
+		Sector4(0);
+		for(i=0;i<30;i++){}
+	}
 
 
 	return 1;
 }
+
+
+

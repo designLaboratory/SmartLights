@@ -1,24 +1,35 @@
 Dependencies for Project 'Smart_Lights', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x586FBD63)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x58A57DFF)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include\MKL25Z4.h)(0x564470FA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x56260B6C)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625F7B0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625F7B0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625F7B0)
-I (C:\Users\ﾅ「kasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x00000000)
-I (WS2818.h)(0x586FBD47)
-F (.\WS2828.c)(0x586FBD47)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\ws2828.o --omf_browse .\objects\ws2828.crf --depend .\objects\ws2828.d)
-I (ws2818.h)(0x586FBD47)
+I (C:\Users\ﾅ「kasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x00000000)
+I (WS2818.h)(0x58A5737F)
+I (math.h)(0x58A57C3E)
+F (.\WS2828.c)(0x58A5737F)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\ws2828.o --omf_browse .\objects\ws2828.crf --depend .\objects\ws2828.d)
+I (ws2818.h)(0x58A5737F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include\MKL25Z4.h)(0x564470FA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x56260B6C)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625F7B0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625F7B0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625F7B0)
-I (C:\Users\ﾅ「kasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x00000000)
-F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x564470FA)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\listings\startup_mkl25z4.lst --xref -o .\objects\startup_mkl25z4.o --depend .\objects\startup_mkl25z4.d)
-F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x564470FA)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE-IC:\Users\｣ukasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\system_mkl25z4.o --omf_browse .\objects\system_mkl25z4.crf --depend .\objects\system_mkl25z4.d)
+I (C:\Users\ﾅ「kasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x00000000)
+F (.\math.c)(0x58A57CC7)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\math.o --omf_browse .\objects\math.crf --depend .\objects\math.d)
+I (math.h)(0x58A57C3E)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include\MKL25Z4.h)(0x564470FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x56260B6C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625F7B0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625F7B0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625F7B0)
+I (C:\Users\ﾅ「kasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x00000000)
+I (ws2818.h)(0x58A5737F)
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x564470FA)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\｣ukasz\Desktop\github\smartlights\RTE-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\listings\startup_mkl25z4.lst --xref -o .\objects\startup_mkl25z4.o --depend .\objects\startup_mkl25z4.d)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x564470FA)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE-IC:\Users\｣ukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMKL25Z128xxx4-o .\objects\system_mkl25z4.o --omf_browse .\objects\system_mkl25z4.crf --depend .\objects\system_mkl25z4.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include\MKL25Z4.h)(0x564470FA)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x56260B6C)

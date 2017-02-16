@@ -6,4 +6,4 @@
 .\objects\ws2828.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
 .\objects\ws2828.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
 .\objects\ws2828.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
-.\objects\ws2828.o: C:\Users\Łukasz\Desktop\github\SmartLights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h
+.\objects\ws2828.o: C:\Users\Łukasz\Desktop\github\smartlights\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h
