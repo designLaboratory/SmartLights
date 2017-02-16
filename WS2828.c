@@ -8,6 +8,7 @@ void LedInit(void){
 	SIM->SCGC5|=SIM_SCGC5_PORTD_MASK;
 	PORTD->PCR[3]=PORT_PCR_MUX(1UL);    //data out is PTE0
 	FPTD->PDDR|=MaskLed[LedOut];
+	FPTD->PCOR|=0x8;
 }
 void SendReset(void){
 	uint16_t nr_of_cycles;		
